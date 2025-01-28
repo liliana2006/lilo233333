@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mercedes-Benz - A prémium autóélmény">
+    <title>Mercedes-Benz - A prémium autóélmény</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .hero-image {
+            background-image: url('https://www.mercedes-benz.com/etc/designs/mbna/clientlibs/desktop/img/hero/hero-image.jpg'); /* Ha van saját képed, ezt cseréld ki! */
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 2em;
+        }
+        section {
+            padding: 40px;
+        }
+        .model-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .model-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .model-card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mercedes-Benz</h1>
+    <p>A prémium autóélmény</p>
+</header>
+
+<div class="hero-image">
+    <p>Fedezze fel a világ vezető autómárkáját!</p>
+</div>
+
+<section>
+    <h2>Mercedes-Benz Modellek</h2>
+    <div class="model-list">
+        <div class="model-card">
+            <img src="https://www.mercedes-benz.com/wp-content/uploads/2022/04/mercedes-benz-a-class-01.jpg" alt="A-osztály">
+            <h3>A-osztály</h3>
+            <p>Kompakt, sportos és modern.</p>
+        </div>
+        <div class="model-card">
+            <img src="https://www.mercedes-benz.com/wp-content/uploads/2022/04/mercedes-benz-c-class-01.jpg" alt="C-osztály">
+            <h3>C-osztály</h3>
+            <p>Elegáns és dinamikus.</p>
+        </div>
+        <div class="model-card">
+            <img src="https://www.mercedes-benz.com/wp-content/uploads/2022/04/mercedes-benz-s-class-01.jpg" alt="S-osztály">
+            <h3>S-osztály</h3>
+            <p>A prémium autók királya.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Innováció és Technológia</h2>
+    <p>Mercedes-Benz járműveink folyamatosan megújulnak, hogy a legújabb technológiai vívmányokat hozhassák el Önnek.</p>
+    <ul>
+        <li>MBUX Infotainment rendszer</li>
+        <li>Önvezető rendszerek</li>
+        <li>Elektromos és plug-in hibrid modellek</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Szolgáltatásaink</h2>
+    <p>A Mercedes-Benz vásárlása nem ér véget az autó megvásárlásával! Kínálunk szervizszolgáltatásokat, finanszírozási lehetőségeket és próbavezetési lehetőségeket is!</p>
+    <ul>
+        <li>Hivatalos szerviz és karbantartás</li>
+        <li>Rugalmas finanszírozás</li>
+        <li>Próbavezetés lehetősége</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2025 Mercedes-Benz. Minden jog fenntartva.</p>
+</footer>
+
+</body>
+</html>
